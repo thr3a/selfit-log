@@ -12,6 +12,8 @@
     "llmtext": "docker run --rm -v ./:/app thr3a/repo2text -d /app -f package.json vite.config.ts"
   },
   "dependencies": {
+    "cheerio": "^1.0.0",
+    "iconv-lite": "^0.6.3",
     "tsx": "^4.19.3"
   },
   "devDependencies": {

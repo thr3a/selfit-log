@@ -2,7 +2,7 @@ name: Record Current Person
 
 on:
   schedule:
-    - cron: "*/15 * * * *" # 15分ごとに実行
+    - cron: "0 * * * *" # 15分ごとに実行
   workflow_dispatch: # 手動実行を許可
 
 env:
@@ -28,12 +28,12 @@ jobs:
         run: npm ci
 
       - name: Run script
-        run: node --import tsx ./src/scripts/get.ts
+        run: node --import tsx ./src/scripts/ozeki.ts
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add data.csv
-          git commit -m "Update data.csv [$(date)]" || echo "No changes to commit"
+          git add ozeki.txt
+          git commit -m "Update ozeki.txt [$(date)]" || echo "No changes to commit"
           git push
