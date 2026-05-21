@@ -384,3 +384,6 @@ https://ozeki.digimu.jp/data/00025229/img/thum/a1.pdf
 https://ozeki.digimu.jp/data/00025229/img/thum/b1.pdf
 https://ozeki.digimu.jp/data/00025248/img/thum/a2.pdf
 https://ozeki.digimu.jp/data/00025269/img/thum/a1.pdf
+https://ozeki.digimu.jp/data/00025268/img/thum/a2.pdf
+https://ozeki.digimu.jp/data/00025264/img/thum/a4.pdf
+https://ozeki.digimu.jp/data/00025264/img/thum/b4.pdf
